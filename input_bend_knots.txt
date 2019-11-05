@@ -1,0 +1,21 @@
+1, 0.2, 0.1, 1, 0.3, 15
+
+The above are input parameters for bend_knots.m. These parameters can be modified in this file
+
+The first parameter specifies a choice of bend knot, and the rest are material parameters described as follows:
+
+(a) Choice of bend knot:
+This is a number n from 1 to 22. It picks out the nth knot from the following list:
+
+reef,       thief,      granny,     grief,      bowline13,  bowline14, 
+bowline24,  bowline23,  carrick13,  carrick14,  hunter13,   hunter14,  
+hunter24,   hunter23,   zeppelin13, zeppelin14, zeppelin23, ashley13,  
+ashley14,   alpine13,   alpine24,   alpine23
+
+(b) Including material parameters, input parameters are given in order with units below:
+
+Choice of bend knot, Radius (mm), Bending modulus (GPa), Young's modulus (GPa), Poisson's ratio, Pulling force (N)
+
+E.g. the above input parameters (top line) correspond to: 
+
+Reef knot, Radius = 0.2mm, Bending modulus = 0.1 GPa, etc.

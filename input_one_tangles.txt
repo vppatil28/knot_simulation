@@ -1,0 +1,19 @@
+1, 0.2, 1e-3, 1e-3, 0.3, 0.02
+
+The above are input parameters for 1_tangles.m. These parameters can be modified in this file
+
+The first parameter specifies a choice of 1-tangle, and the rest are material parameters described as follows:
+
+(a) Choice of 1-tangle.
+	This parameter can be 1 or 2, to select trefoil or figure of eight.
+	1 -> Trefoil
+	2 -> Figure of eight 
+
+
+(b) Including material parameters, input parameters are given in order with units below:
+
+Choice of 1-tangle, Radius (mm), Bending modulus (GPa), Young's modulus (GPa), Poisson's ratio, Pulling force (N)
+
+E.g. the above input parameters correspond to: 
+
+Trefoil, Radius = 0.2mm, Bending modulus = 0.001 GPa, etc.
